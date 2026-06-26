@@ -1,8 +1,8 @@
 import os
 import re
 
-INPUT_FOLDER = r"C:\Users\sadik\OneDrive\Desktop\lawyerbot_dataset\extracted_text"
-OUTPUT_FOLDER = r"C:\Users\sadik\OneDrive\Desktop\lawyerbot_dataset\cleaned_text"
+INPUT_FOLDER = r"YOUR_INPUT_FOLDER"
+OUTPUT_FOLDER = r"YOUR_INPUT_FOLDER"
 
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 

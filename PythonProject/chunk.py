@@ -1,7 +1,7 @@
 import os
 
-INPUT_FOLDER = r"C:\Users\sadik\OneDrive\Desktop\lawyerbot_dataset\cleaned_text"
-OUTPUT_BASE = r"C:\Users\sadik\OneDrive\Desktop\lawyerbot_dataset\chunks"
+INPUT_FOLDER = r"YOUR_INPUT_FILE"
+OUTPUT_BASE = r"YOUR_OUTPUT_FILE"
 
 
 CHUNK_SIZE = 500   # words per chunk

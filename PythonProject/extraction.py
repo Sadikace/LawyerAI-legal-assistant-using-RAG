@@ -1,10 +1,10 @@
 import pdfplumber
 import os
 
-PDF_PATH = r"C:\Users\sadik\OneDrive\Desktop\lawyerbot_dataset\raw_sources\Custom Integration\S3-S8COMPUTERSCIENCEANDENGINEERINGFINALSYLLABUS.pdf"
+PDF_PATH = r"YOUR_RAW_PDF_PATH"
 
-OUT_DIR = r"C:\Users\sadik\OneDrive\Desktop\lawyerbot_dataset\extracted_text"
-OUT_PATH = os.path.join(OUT_DIR, "S3-S8COMPUTERSCIENCE_AND_ENGINEERINGFINALSYLLABUS.txt")
+OUT_DIR = r"YOUR_DIR_PATH"
+OUT_PATH = os.path.join(OUT_DIR, "NAME_OF_YOUR_FILE")
 
 os.makedirs(OUT_DIR, exist_ok=True)
 

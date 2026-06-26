@@ -4,8 +4,8 @@ import faiss
 import numpy as np
 from sentence_transformers import SentenceTransformer
 
-CHUNKS_BASE = r"C:\Users\sadik\OneDrive\Desktop\lawyerbot_dataset\chunks"
-DB_PATH = r"C:\Users\sadik\OneDrive\Desktop\lawyerbot_dataset\vectordb"
+CHUNKS_BASE = r"YOUR_CHUNK_DATABASE"
+DB_PATH = r"YOUR_VECTER_DATABASE"
 
 os.makedirs(DB_PATH, exist_ok=True)
 

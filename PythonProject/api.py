@@ -3,7 +3,7 @@ LawyerBot — api.py
 ============================
 College    : Indira Gandhi Institute of Engineering and Technology
 University : APJ Abdul Kalam Technological University
-Developers : Muhammed Sadik, Arshad Basheer, Alimon KR
+Developers : Muhammed Sadik
 
 STACK (matches your existing project):
   - FAISS (vectordb/lawyerbot.index)   ← your existing index, no rebuild needed
@@ -41,7 +41,7 @@ from groq import Groq
 # ══════════════════════════════════════════
 #  PATHS — points to YOUR existing folders
 # ══════════════════════════════════════════
-BASE_DIR     = Path(r"C:\Users\sadik\OneDrive\Desktop\lawyerbot_dataset")
+BASE_DIR     = Path("data base path")
 VECTOR_DB    = BASE_DIR / "vectordb" / "lawyerbot.index"
 METADATA     = BASE_DIR / "vectordb" / "metadata.json"
 CHUNKS_DIR   = BASE_DIR / "chunks"
@@ -52,7 +52,7 @@ TOP_K = 5
 # ══════════════════════════════════════════
 #  LOAD ENV & CLIENTS
 # ══════════════════════════════════════════
-load_dotenv(dotenv_path=r"C:\Users\sadik\OneDrive\Desktop\lawyerbot_dataset\PythonProject\.env")
+load_dotenv(dotenv_path=HERE IS YOUR ENV LOCATION")
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 if not GROQ_API_KEY:
     raise RuntimeError(
